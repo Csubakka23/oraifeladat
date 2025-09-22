@@ -1,0 +1,11 @@
+.piros {
+    background-color: piros;
+}
+.fekete {
+    background-color: black;
+}
+
+.piros, .fekete {
+    padding: 10px;
+    color: white;
+}

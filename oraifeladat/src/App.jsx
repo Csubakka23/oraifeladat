@@ -1,14 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './style.css'
+import'./css/style.css'
+import Hello from "./Hello.jsx"
+import {Flip, Flip2} from "./Flip.jsx"
+import "./css/flip.module.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <h1>Második react app</h1>
+      <Hello />
+      <Flip/>
+      <Flip2/>
     </>
   )
 }
