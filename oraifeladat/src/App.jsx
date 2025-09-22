@@ -5,6 +5,8 @@ import'./css/style.css'
 import Hello from "./Hello.jsx"
 import {Flip, Flip2} from "./Flip.jsx"
 import "./css/flip.module.css"
+import Targyak from "./Targyak.jsx"
+import Szamlalo from './Szamlalo.jsx'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Hello />
       <Flip/>
       <Flip2/>
+      <Targyak/>
+      <Szamlalo/>
     </>
   )
 }
